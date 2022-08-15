@@ -42,7 +42,12 @@ nav {
 
 .nav-item{
    font-size: 1.3em;
+   cursor: pointer;
 }
+.nav-item:hover {
+   letter-spacing: 0.1em;
+}
+
 .contact {
    width: 30vw;
    /* border: 2px solid red; */
@@ -80,9 +85,9 @@ main {
    font-size: 3em;
    width: 50vw;
 }
-.card {
+.card-top {
    width: 20vw;
-   height: 30vh;
+   height: 20vh;
    /* border: 2px solid red; */
    background-color: #304557;
    padding-left: 1.5em;
@@ -90,6 +95,10 @@ main {
    flex-direction: column;
    justify-content: center;
    padding-right: 1em;
+}
+.card {
+   margin-left: auto;
+   margin-right: 4em;
 }
 
 .img-wrapper {
@@ -109,17 +118,15 @@ main {
 }
 
 .line_dot {
-   position: relative;
-   top: -132px;
+   /* position: relative; */
+   padding-left: 13em;
    display: flex;
-   justify-content: baseline;
    flex-direction: column;
 }
 
 .line {
    width: 12px;
-   height: 120px;
-   /* border-bottom: 2px solid white; */
+   height: 90px;
    border-right: 2px solid white;
 }
 .dot {
@@ -145,6 +152,7 @@ main {
    color: white;
    border: 2px solid white;
    font-weight: bold;
+   cursor: pointer;
 }
 
 .bottom .card {
@@ -157,3 +165,27 @@ main {
    top: -35px;
 }
 
+.line_dot-b {
+   display: flex;
+}
+
+.line-b {
+   width: 120px;
+   height: 90px;
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+.dot-b {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(255, 255, 255);
+   /* align-self: flex-start; */
+   margin-top: 3.4em;
+}
+.card-wrapper {
+   display: flex;
+}
+.card-wrapper .card {
+   margin-right: 0;
+   margin-top: 2em;
+}
