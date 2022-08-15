@@ -1,0 +1,191 @@
+ * {
+    padding: 0;
+    margin: 0;
+ }
+html {
+   overflow: hidden;
+   /* height: 100%; */
+}
+
+/* setting the properties for the main content area */
+.container {
+   background-image: url(./imgs/retro-living-room-interior-design.jpg);
+   background-size: cover;
+   background-position: center 50%;
+   width: 100vw;
+   height: 100vh;
+   font-size: 24px;
+}
+nav {
+   padding: 1em 1em;
+   height: 10vh;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   color: white;
+}
+
+.logo {
+   width: 4em;
+   margin-right: auto;
+   margin-left: 3em;
+   font-weight: 700;
+}
+
+.nav-links {
+   text-decoration: none;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   width: 40vw;
+}
+
+.nav-item{
+   font-size: 1.3em;
+   cursor: pointer;
+}
+.nav-item:hover {
+   letter-spacing: 0.1em;
+}
+
+.contact {
+   width: 30vw;
+   /* border: 2px solid red; */
+   text-align: left;
+}
+.contact-logo {
+   float: left;
+}
+.contact-number {
+   padding-top: 1.3em;
+}
+.hline {
+   float: right;
+   width: 72%;
+   border: 2px solid white;
+}
+
+main {
+   margin-top: 3em;
+   padding: 1em 1em;
+   color: white;
+   display: flex;
+   flex-direction: column;
+}
+.top {
+   display: flex;
+   /* border: 2px solid wheat; */
+}
+.main-heading {
+   /* border: 2px solid black; */
+   padding-top: 1em;
+   padding-left: 4em;
+}
+.main-heading  h2{
+   font-size: 3em;
+   width: 50vw;
+}
+.card-top {
+   width: 20vw;
+   height: 20vh;
+   /* border: 2px solid red; */
+   background-color: #304557;
+   padding-left: 1.5em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-right: 1em;
+}
+.card {
+   margin-left: auto;
+   margin-right: 4em;
+}
+
+.img-wrapper {
+   width: 100px;
+   height: 50px;
+   border-radius: 25px;
+   background-color: #ffffff;
+}
+.img-wrapper img {
+   position: relative;
+   top: -30px;
+}
+.card h3 {
+   margin-top: 1em;
+   font-size: 1em;
+   font-weight: lighter;
+}
+
+.line_dot {
+   /* position: relative; */
+   padding-left: 13em;
+   display: flex;
+   flex-direction: column;
+}
+
+.line {
+   width: 12px;
+   height: 90px;
+   border-right: 2px solid white;
+}
+.dot {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(255, 255, 255);
+}
+
+.bottom {
+   display: flex;
+   /* border: 2px solid salmon; */
+   justify-content: space-around;
+   margin-top: 1em;
+}
+
+.large-button button{
+   padding: 0.8em 2em;
+   font-size: 1em;
+   text-transform: uppercase;
+   border-radius: 2em;
+   background: transparent;
+   color: white;
+   border: 2px solid white;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.bottom .card {
+   margin-top: 1em;
+}
+
+.bottom .img-wrapper img {
+   position: relative;
+   left: -138px;
+   top: -35px;
+}
+
+.line_dot-b {
+   display: flex;
+}
+
+.line-b {
+   width: 120px;
+   height: 90px;
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+.dot-b {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(255, 255, 255);
+   /* align-self: flex-start; */
+   margin-top: 3.4em;
+}
+.card-wrapper {
+   display: flex;
+}
+.card-wrapper .card {
+   margin-right: 0;
+   margin-top: 2em;
+}
