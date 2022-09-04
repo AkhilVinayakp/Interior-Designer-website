@@ -294,10 +294,14 @@ main {
       display: flex;
       width: 90%;
       align-items: center;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap:1em;
       list-style: none;
       padding-bottom:1em ;
       padding-top: 1em;
       color: white;
+      font-size: 0.8em;
    }
 }
