@@ -201,6 +201,8 @@ main {
    }
    .container {
       height: auto;
+      background-size: cover;
+      background-position: 20%;
    }
    .nav-links {
       display: none;
